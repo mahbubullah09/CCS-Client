@@ -3,11 +3,9 @@ import CryptoJS from "crypto-js";
 
 var key = CryptoJS.enc.Utf8.parse('1234567887654321');
 var iv = CryptoJS.enc.Utf8.parse('1234567887654321');
+// function for AES encryption
 
 
-
-
-// function for PrivaTalk encryption
 export const encrypted = (data) => {
 var encryptedData = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(data), key,
 {
@@ -19,7 +17,7 @@ return encryptedData.toString();
 };
 
 
-// function for PrivaTalk decryption
+// function for AES decryption
 export const decrypted = (data) => {
 var decryptedData = CryptoJS.AES.decrypt(data, key,
 {
