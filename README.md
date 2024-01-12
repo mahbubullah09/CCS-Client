@@ -8,3 +8,6 @@ This is simple project using html, talwind css, JavaScript, React js, node, and 
 - Group chat
 - End-to-end encryption
 
+# Life Site
+ 
+[Link](https://taskcanvas-454c4.web.app//)
